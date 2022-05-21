@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/t-mrt/try-out-devcontaner/devcontaner",
+  "name": "dev-container",
   "build": {
     "dockerfile": "../Dockerfile"
   },
