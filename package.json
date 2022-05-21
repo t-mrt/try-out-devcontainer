@@ -1,0 +1,21 @@
+{
+  "name": "try-out-devcontainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devcontainer/build": "devcontainer build --image-name ghcr.io/t-mrt/try-out-devcontaner/devcontaner",
+    "devcontainer/push": "docker push ghcr.io/t-mrt/try-out-devcontaner/devcontaner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/t-mrt/try-out-devcontainer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-mrt/try-out-devcontainer/issues"
+  },
+  "homepage": "https://github.com/t-mrt/try-out-devcontainer#readme"
+}

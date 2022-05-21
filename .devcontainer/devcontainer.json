@@ -1,0 +1,9 @@
+{
+  "image": "ghcr.io/t-mrt/try-out-devcontaner/devcontaner",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "features": {
+    "docker-in-docker": "latest"
+  }
+}
